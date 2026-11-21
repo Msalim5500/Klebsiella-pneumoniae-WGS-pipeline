@@ -1,0 +1,21 @@
+# Validation checklist before running the pipeline
+
+- [ ] Confirm the seven paired FASTQ paths in `metadata/samples.tsv`.
+- [ ] Confirm all 14 reference FASTA files and accession metadata.
+- [ ] Verify NCBI reference genomes are human clinical isolates and pass the stated CheckM filter (>=90% completeness, <=5% contamination).
+- [ ] Confirm exact adapter FASTA for the sequencing library.
+- [ ] Confirm the installed Shovill-linked SPAdes version is the version reported in Methods.
+- [ ] Confirm Pilon version, Java version and successful BWA/SAMtools mapping.
+- [ ] Confirm separate plasmidSPAdes executable is SPAdes v4.0.0.
+- [ ] Confirm BUSCO lineage dataset and exact release.
+- [ ] Confirm the Pasteur MLST scheme and seven loci.
+- [ ] Record the ABRicate database list and update dates; resolve the “eleven databases” count in Methods.
+- [ ] Run full NCBI AMRFinderPlus separately from ABRicate `ncbi`.
+- [ ] Verify whether StarAMR/PointFinder supports *K. pneumoniae* and the exact loci before reporting mutation results.
+- [ ] Verify VirulenceFinder supports *K. pneumoniae* for the exact version/database before enabling it.
+- [ ] Specify the HMM profile database and cutoffs if using `hmmsearch` for orthologue detection.
+- [ ] Confirm selected complete reference genome for SKA2/Gubbins.
+- [ ] Keep Roary's core-gene alignment separate from the SKA2 whole-genome alignment used by Gubbins.
+- [ ] Confirm RAxML v8 vs RAxML-NG and use the matching command line.
+- [ ] Record R, ggplot2 and ggalluvial versions for the Sankey figure.
+- [ ] Keep all software and database version logs with the final analysis.

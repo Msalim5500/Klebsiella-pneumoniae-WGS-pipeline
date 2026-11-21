@@ -1,0 +1,8 @@
+sample_id	R1	R2
+NOHU9_2KP	data/reads/NOHU9_2KP_R1.fastq.gz	data/reads/NOHU9_2KP_R2.fastq.gz
+NOHU38_7KP	data/reads/NOHU38_7KP_R1.fastq.gz	data/reads/NOHU38_7KP_R2.fastq.gz
+NOHU53_12KP	data/reads/NOHU53_12KP_R1.fastq.gz	data/reads/NOHU53_12KP_R2.fastq.gz
+NOHU58_14KP	data/reads/NOHU58_14KP_R1.fastq.gz	data/reads/NOHU58_14KP_R2.fastq.gz
+NOHU68_18KP	data/reads/NOHU68_18KP_R1.fastq.gz	data/reads/NOHU68_18KP_R2.fastq.gz
+NOHU72_20KP	data/reads/NOHU72_20KP_R1.fastq.gz	data/reads/NOHU72_20KP_R2.fastq.gz
+NOHU82_23KP	data/reads/NOHU82_23KP_R1.fastq.gz	data/reads/NOHU82_23KP_R2.fastq.gz

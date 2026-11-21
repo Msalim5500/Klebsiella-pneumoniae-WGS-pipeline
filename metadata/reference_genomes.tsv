@@ -1,0 +1,2 @@
+accession	local_fasta	isolation_source	host	country	year	ST	completeness_percent	contamination_percent
+REPLACE_WITH_NCBI_ACCESSION	data/references/REPLACE_WITH_REFERENCE.fa	human clinical	human	REPLACE	REPLACE	REPLACE	REPLACE	REPLACE
